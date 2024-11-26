@@ -10,3 +10,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.numbers{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+}
+
+.box{
+    border: 1px solid whitesmoke;
+    height: max-content;
+    background-color: black;
+    margin: 4px 4px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
